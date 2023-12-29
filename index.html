@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment System Test</title>
+</head>
+<body>
+
+    <section id="comments">
+        <h3>Comments</h3>
+        <ul id="commentList">
+            <!-- Comments will be dynamically added here using JavaScript -->
+        </ul>
+
+        <form id="commentForm">
+            <label for="commentName">Name:</label>
+            <input type="text" id="commentName" required>
+
+            <label for="commentText">Comment:</label>
+            <textarea id="commentText" required></textarea>
+
+            <button id="btnad" class="interactive-btn" type="button" onclick="addComment()">Add Comment</button>
+        </form>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
